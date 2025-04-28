@@ -38,7 +38,9 @@ const Cube = ({ ...props }) => {
           ref={cubeRef}
           castShadow
           receiveShadow
+          // @ts-expect-error ignore
           geometry={nodes.Cube.geometry}
+          // @ts-expect-error ignore
           material={nodes.Cube.material}
           onPointerEnter={() => setHovered(true)}>
           <meshMatcapMaterial matcap={texture} toneMapped={false} />

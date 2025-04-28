@@ -1,4 +1,4 @@
-interface ButtonProps{name:string,isBeam:boolean,containerClass:string,href:string}
+interface ButtonProps{name:string,isBeam:boolean,containerClass:string,href?:string}
 const Button:React.FC<ButtonProps> = ({ name, isBeam = false, containerClass, href }:ButtonProps) => {
     return (
       <a className={`btn ${containerClass}`} href={href}target = "_blank">

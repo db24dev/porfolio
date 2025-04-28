@@ -4,7 +4,7 @@ import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 
 const Target = (props) => {
-  const targetRef = useRef();
+  const targetRef = useRef(null);
   const { scene } = useGLTF(
     'https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public/models/target-stand/model.gltf',
   );

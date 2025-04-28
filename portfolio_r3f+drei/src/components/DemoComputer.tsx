@@ -41,7 +41,9 @@ const DemoComputer = (props) => {
           name="monitor-screen"
           // castShadow
           // receiveShadow
+          // @ts-expect-error ignore
           geometry={nodes['monitor-screen'].geometry}
+          // @ts-expect-error ignore
           material={nodes['monitor-screen'].material}
           position={[0.127, 1.831, 0.511]}
           rotation={[1.571, -0.005, 0.031]}
@@ -959,6 +961,7 @@ const DemoComputer = (props) => {
             name="Monitor-B-_computer_0_1"
             // castShadow
             // receiveShadow
+            // @ts-expect-error ignore
             geometry={nodes['Monitor-B-_computer_0_1'].geometry}
             material={materials.computer}
           />
@@ -966,6 +969,7 @@ const DemoComputer = (props) => {
             name="Monitor-B-_computer_0_2"
             // castShadow
             // receiveShadow
+            // @ts-expect-error ignore
             geometry={nodes['Monitor-B-_computer_0_2'].geometry}
             material={materials.base__0}
           />
@@ -973,6 +977,7 @@ const DemoComputer = (props) => {
             name="Monitor-B-_computer_0_3"
             // castShadow
             // receiveShadow
+            // @ts-expect-error ignore
             geometry={nodes['Monitor-B-_computer_0_3'].geometry}
             material={materials.Material_36}
           />
@@ -980,6 +985,7 @@ const DemoComputer = (props) => {
             name="Monitor-B-_computer_0_4"
             // castShadow
             // receiveShadow
+            // @ts-expect-error ignore
             geometry={nodes['Monitor-B-_computer_0_4'].geometry}
             material={materials.Material_35}
           />
@@ -987,6 +993,7 @@ const DemoComputer = (props) => {
             name="Monitor-B-_computer_0_5"
             // castShadow
             // receiveShadow
+            // @ts-expect-error ignore
             geometry={nodes['Monitor-B-_computer_0_5'].geometry}
             material={materials.Material_34}
           />
@@ -994,6 +1001,7 @@ const DemoComputer = (props) => {
             name="Monitor-B-_computer_0_6"
             // castShadow
             // receiveShadow
+            // @ts-expect-error ignore
             geometry={nodes['Monitor-B-_computer_0_6'].geometry}
             material={materials.keys}
           />
@@ -1001,6 +1009,7 @@ const DemoComputer = (props) => {
             name="Monitor-B-_computer_0_7"
             // castShadow
             // receiveShadow
+            // @ts-expect-error ignore
             geometry={nodes['Monitor-B-_computer_0_7'].geometry}
             material={materials.keys2}
           />
@@ -1008,6 +1017,7 @@ const DemoComputer = (props) => {
             name="Monitor-B-_computer_0_8"
             // castShadow
             // receiveShadow
+            // @ts-expect-error ignore
             geometry={nodes['Monitor-B-_computer_0_8'].geometry}
             material={materials.Material_37}
           />

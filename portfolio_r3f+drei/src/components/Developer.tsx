@@ -40,65 +40,93 @@ const Developer = ({ animationName = 'idle', ...props }) => {
     <group ref={group} {...props} dispose={null}>
       <primitive object={nodes.Hips} />
       <skinnedMesh
+      // @ts-expect-error ignore
         geometry={nodes.Wolf3D_Hair.geometry}
         material={materials.Wolf3D_Hair}
+        // @ts-expect-error ignore
         skeleton={nodes.Wolf3D_Hair.skeleton}
       />
       <skinnedMesh
+      // @ts-expect-error ignore
         geometry={nodes.Wolf3D_Glasses.geometry}
         material={materials.Wolf3D_Glasses}
+        // @ts-expect-error ignore
         skeleton={nodes.Wolf3D_Glasses.skeleton}
       />
       <skinnedMesh
+      // @ts-expect-error ignore
         geometry={nodes.Wolf3D_Body.geometry}
         material={materials.Wolf3D_Body}
+        // @ts-expect-error ignore
         skeleton={nodes.Wolf3D_Body.skeleton}
       />
       <skinnedMesh
+      // @ts-expect-error ignore
         geometry={nodes.Wolf3D_Outfit_Bottom.geometry}
         material={materials.Wolf3D_Outfit_Bottom}
+        // @ts-expect-error ignore
         skeleton={nodes.Wolf3D_Outfit_Bottom.skeleton}
       />
       <skinnedMesh
+      // @ts-expect-error ignore
         geometry={nodes.Wolf3D_Outfit_Footwear.geometry}
         material={materials.Wolf3D_Outfit_Footwear}
+        // @ts-expect-error ignore
         skeleton={nodes.Wolf3D_Outfit_Footwear.skeleton}
       />
       <skinnedMesh
+      // @ts-expect-error ignore
         geometry={nodes.Wolf3D_Outfit_Top.geometry}
         material={materials.Wolf3D_Outfit_Top}
+        // @ts-expect-error ignore
         skeleton={nodes.Wolf3D_Outfit_Top.skeleton}
       />
       <skinnedMesh
         name="EyeLeft"
+        // @ts-expect-error ignore
         geometry={nodes.EyeLeft.geometry}
         material={materials.Wolf3D_Eye}
+        // @ts-expect-error ignore
         skeleton={nodes.EyeLeft.skeleton}
+        // @ts-expect-error ignore
         morphTargetDictionary={nodes.EyeLeft.morphTargetDictionary}
+        // @ts-expect-error ignore
         morphTargetInfluences={nodes.EyeLeft.morphTargetInfluences}
       />
       <skinnedMesh
         name="EyeRight"
+        // @ts-expect-error ignore
         geometry={nodes.EyeRight.geometry}
         material={materials.Wolf3D_Eye}
+        // @ts-expect-error ignore
         skeleton={nodes.EyeRight.skeleton}
+        // @ts-expect-error ignore
         morphTargetDictionary={nodes.EyeRight.morphTargetDictionary}
+        // @ts-expect-error ignore
         morphTargetInfluences={nodes.EyeRight.morphTargetInfluences}
       />
       <skinnedMesh
         name="Wolf3D_Head"
+        // @ts-expect-error ignore
         geometry={nodes.Wolf3D_Head.geometry}
         material={materials.Wolf3D_Skin}
+        // @ts-expect-error ignore
         skeleton={nodes.Wolf3D_Head.skeleton}
+        // @ts-expect-error ignore
         morphTargetDictionary={nodes.Wolf3D_Head.morphTargetDictionary}
+        // @ts-expect-error ignore
         morphTargetInfluences={nodes.Wolf3D_Head.morphTargetInfluences}
       />
       <skinnedMesh
         name="Wolf3D_Teeth"
+        // @ts-expect-error ignore
         geometry={nodes.Wolf3D_Teeth.geometry}
         material={materials.Wolf3D_Teeth}
+        // @ts-expect-error ignore
         skeleton={nodes.Wolf3D_Teeth.skeleton}
+        // @ts-expect-error ignore
         morphTargetDictionary={nodes.Wolf3D_Teeth.morphTargetDictionary}
+        // @ts-expect-error ignore
         morphTargetInfluences={nodes.Wolf3D_Teeth.morphTargetInfluences}
       />
     </group>
