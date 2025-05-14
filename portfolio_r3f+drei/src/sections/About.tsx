@@ -63,7 +63,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">Very flexible with time zone communications & locations</p>
               <p className="grid-subtext">I&apos;m based in Los Angeles, California and open to remote work World Wide.</p>
-              <Button name="Download Resume(CV)" isBeam containerClass="w-full mt-10" href="assets/DB 2025 Resume.pdf" />
+              <Button name="Download Resume(CV)" isBeam containerClass="w-full mt-10" href="assets/db24dev{resume}.pdf" />
             </div>
           </div>
         </div>
@@ -76,7 +76,7 @@ const About = () => {
               <p className="grid-headtext">My Passion for Coding</p>
               <p className="grid-subtext">
                 I love solving problems and building real life applicable solutions through code. Programming isn&apos;t just my
-                profession—it&apos;s my obsession. I truly enjoy exploring new technologies, and enhancing my skills everyday. 
+                profession, it&apos;s my obsession. I truly enjoy exploring new technologies, and enhancing my skills everyday. 
               </p>
             </div>
           </div>
